@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Tic-Tac-Toe</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/tictactoe.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <section class="board-section">
+      <h1 class="header">Tic-Tac-Toe</h1>
+      <h4 class="header" id="current-turn"></h4>
+      <div class="container">
+        <h5 class="header" id="warning"></h5>
+      </div>
+    <div class="board-game">
+      <!-- Grid -->
+      <div class="grid">
+        <div class="board-piece" data-num="0">0</div>
+        <div class="board-piece" data-num="1">1</div>
+        <div class="board-piece" data-num="2">2</div>
+        <div class="board-piece" data-num="3">3</div>
+        <div class="board-piece" data-num="4">4</div>
+        <div class="board-piece" data-num="5">5</div>
+        <div class="board-piece" data-num="6">6</div>
+        <div class="board-piece" data-num="7">7</div>
+        <div class="board-piece" data-num="8">8</div>
+      </div>
+    </div>
+    <div class="container restarter">
+      <button id="restart">Restart</button>
+    </div>
+    <div class="container controls">
+      <label for="tileColor">Tile Color</label>
+      <input type="color" name="tile" id="tileColor" value="#2DFFFF">
+      <label for="textColor">Text Color</label>
+      <input type="color" name="bright" id="textColor" value="#FF2693">
+    </div>
+  </section>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- JavaScript -->
+  <script src="index.js"></script>
+</body>
+</html>
