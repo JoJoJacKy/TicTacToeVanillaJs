@@ -1,2 +1,2 @@
 # TicTacToeVanillaJs
-Deployed on github pages https://jojojacky.github.io/TicTacToeVanillaJs/
+Deployed to github pages https://jojojacky.github.io/TicTacToeVanillaJs/
