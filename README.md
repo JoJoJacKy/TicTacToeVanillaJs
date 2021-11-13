@@ -2,7 +2,7 @@
 
 Tic Tac Toe created from scratch with vanilla JavaScript.
 
-`DEMO` https://frosty-engelbart-7a5ab6.netlify.app
+`DEMO` https://jojojacky.github.io/TicTacToeVanillaJs/
 
 `STACK` JavaScript (Nodejs), Skeleton (CSS)
 
